@@ -18,13 +18,27 @@
       <div class="content">
         <img src="images/placeholder_picture.png">
         <h1>Visal Kolo</h1>
-        <p>Hi! My name is Visal. I am a UI/UX Designer.</p>
+        <p>lm ipsoreum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua.</p>
         <button>Download Resume</button>
       </div>
     </section>
     <h1 class="heading">My UX Skills</h1>
     <section class="flexContainer">
-
+      <div>
+        <img src="images/placeholderSkill.png">
+        <h3>User Research</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat</p>
+      </div>
+      <div>
+        <img src="images/placeholderSkill.png">
+        <h3>User Interface Design</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat</p>
+      </div>
+      <div>
+        <img src="images/placeholderSkill.png">
+        <h3>Web Development</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat</p>
+      </div>
     </section>
 
     <section class="myWork">
@@ -64,5 +78,34 @@
         <li>CONTACT</li>
       </ul>
     </footer>
+  </body>
+<!DOCTYPE html> 
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Visal Kolo's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body>
+  <header>
+    <nav>
+      <ul class="ulNavTop">
+        <li class="liNavTop"><a href="#">Home</a></li>
+        <li class="liNavTop">Resume</li>
+      </ul>
+    </nav>
+  </header>  
+  <main>
+    <div class="grid">
+      <img src="meta/Screen Shot 2023-03-06 at 12.53.26 PM.png" alt="Visal">
+      <div class="box1">
+        <h1>Hi!</h1>
+        <p> I am a UI/UX Designer who likes to enjoy graphic designing, UI/UX Design.</p>
+
+      </div>
+    </div>
+  </main>
   </body>
 </html>
