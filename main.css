@@ -1,16 +1,16 @@
 header {
-    height: 150px;
+    height: 100px;
     background-color: darkgrey;
 }
 
 main {
-    height: 600px;
+    height: 400px;
     background-color: deeppink;
 }
 
 footer{
     height: 150px;
-    background-color: azure;
+    background-color: rgb(255, 255, 255);
 }
 
 *,
@@ -40,5 +40,18 @@ footer{
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: auto
-;}
+    height: auto;
+    grid-gap: 50px;  
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: rgb(255, 237, 243);
+}
+
+p {
+    color: deeppink;
+}
